@@ -35,3 +35,4 @@ export class AuthController {
     return this.authService.activateUser(email, otp);
   }
 }
+

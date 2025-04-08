@@ -40,3 +40,4 @@ export class ProductService {
     return this.prisma.product.delete({ where: { id } });
   }
 }
+
